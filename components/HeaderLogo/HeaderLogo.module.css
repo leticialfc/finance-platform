@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}

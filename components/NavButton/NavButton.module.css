@@ -1,0 +1,35 @@
+.button {
+  width: auto;
+  justify-content: space-between;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.button:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}

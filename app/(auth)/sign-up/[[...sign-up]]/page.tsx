@@ -1,7 +1,7 @@
 import { Loader2 } from 'lucide-react';
 import { SignUp, ClerkLoaded, ClerkLoading } from '@clerk/nextjs'
 import Image from 'next/image';
-import styles from './page.module.css'
+import styles from '../../page.module.css';
 
 export default function Page() {
   return <div className={styles.authPage}>
