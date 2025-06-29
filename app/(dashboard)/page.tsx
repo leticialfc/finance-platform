@@ -1,5 +1,10 @@
+"use client";
+
 export default function Home() {
+
   return (
-    <div>Dashboard page</div>
+    <div>
+      Home Page
+    </div>
   );
 }
